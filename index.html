@@ -3,58 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ready to Go Logistic Services</title>
+    <title>Ready To Go Logistic Services</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Ready to Go Logistic Services</h1>
-        <nav>
-            <ul>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <h1>Ready To Go Logistic Services</h1>
     </header>
-
-    <section id="hero">
-        <div class="hero-content">
-            <h2>Efficient and Reliable Logistics Solutions</h2>
-            <p>Delivering your goods worldwide with speed and precision.</p>
-            <a href="#contact" class="btn">Get Started</a>
-        </div>
-    </section>
-
-    <section id="services">
-        <h2>Our Services</h2>
-        <p>We offer a wide range of logistic services to meet your needs:</p>
-        <ul>
-            <li>International Shipping</li>
-            <li>Warehousing and Distribution</li>
-            <li>Customs Clearance</li>
-            <li>Supply Chain Management</li>
-        </ul>
-    </section>
-
-    <section id="about">
+    <aside>
         <h2>About Us</h2>
-        <p>Ready to Go Logistic Services is a leading provider of logistics solutions with a global network of partners and clients.</p>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Get in touch with us to discuss your logistics needs.</p>
-        <form action="submit.php" method="post">
-            <input type="text" name="name" placeholder="Your Name">
-            <input type="email" name="email" placeholder="Your Email">
-            <textarea name="message" placeholder="Your Message"></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Ready to Go Logistic Services. All rights reserved.</p>
-    </footer>
+        <p>Owned by: Arvind Yadav</p>
+        <p>Working with: Flipkart and Amazon</p>
+        <p>Specializing in: Large and Small Appliances</p>
+        <p>Location: Gurugram, Haldwani, Rudrapur, Rewari, Sonipat, Panipat, Palwal, Fatehabad, Hisar, Narnaul, Mahendragarh, Sirsa</p>
+    </aside>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#track_order">Track Order</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Welcome to R2G Logistic Services!</h2>
+            <p>We specialize in delivering large appliances efficiently and reliably.</p>
+            <p>Contact us today for all your logistics needs.</p>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <ol>
+                <li>Home Delivery of Large Appliances</li>
+                <li>Installation Services</li>
+                <li>Return and Exchange Services</li>
+            </ol>
+        </section>
+        <section id="track_order">
+            <h2>Track Your Order</h2>
+            <form action="#">
+                <label for="order_id">Enter your order ID:</label>
+                <input type="text" id="order_id" name="order_id">
+                <button type="submit">Track</button>
+            </form>
+            <div id="order_status"></div>
+        </section>
+        <section id="contact">
+            <h2>Contact Ready To Go Logistic Services</h2>
+            <p>Address: 312, Near Shiv Mandir,Vill & PO- Baslambi, Distt- Gurugram(HR), 122503</p>
+            <p>Phone: +91 9671908785</p>
+            <p>Email: a.yadav@readytogologistic.com</p>
+            <p>Email: ct_ggn@readytogologistic.com</p>
+            <h3>Send us a Message</h3>
+            <form action="#">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
 </body>
 </html>
